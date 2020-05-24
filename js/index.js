@@ -16,8 +16,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
     });
 
     const submitEmail = async (email) => {
-        // const postURL = 'https://invoice101.in/api/beta/subscription/';
-        const postURL = 'http://localhost:8000/api/beta/subscription/';
+        const postURL = 'https://invoice101.in/api/beta/subscription/';
+        // const postURL = 'http://localhost:8000/api/beta/subscription/';
         const result = await fetch(postURL, {
             method: 'POST',
             headers: {
